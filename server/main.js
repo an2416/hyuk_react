@@ -11,5 +11,5 @@ app.get('/hello', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log('Express is listening on port', port);
+    console.log('Express is listening on port', port); // App Listen port
 });
